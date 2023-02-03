@@ -1,0 +1,15 @@
+.section {
+  @apply h-[850px] w-full bg-hero bg-right bg-cover text-white bg-no-repeat pt-[100px] pb-[254px] relative mb-12 lg:bg-center lg:mb-28;
+}
+
+h1 {
+  @apply text-2xl mx-auto font-semibold mb-[30px] lg:text-[4rem] text-[#00405C] lg:leading-tight lg:max-w-[888px];
+}
+
+h2 {
+  @apply mb-[30px] max-w-[927px] mx-auto lg:mb-[65px] lg:text-xl text-black;
+}
+
+button {
+  @apply bg-[rgba(0,64,92,0.8)] hover:bg-[rgba(0,64,92,1)] px-[35px] py-[9px] mb-[160px] text-xl rounded-md backdrop-blur-md transition lg:px-[80px] lg:py-[1rem] lg:mb-[194px];
+}
